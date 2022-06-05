@@ -17,6 +17,7 @@
 		7E635310284C82960022ACE4 /* SimpleLocalizedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E63530F284C82960022ACE4 /* SimpleLocalizedUITests.swift */; };
 		7E635312284C82960022ACE4 /* SimpleLocalizedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E635311284C82960022ACE4 /* SimpleLocalizedUITestsLaunchTests.swift */; };
 		7ECBE6DF284C878500A23E24 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7ECBE6E1284C878500A23E24 /* Localizable.strings */; };
+		7ECBE6E8284C894900A23E24 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBE6E7284C894900A23E24 /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		7ECBE6E0284C878500A23E24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7ECBE6E2284C87F800A23E24 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
 		7ECBE6E3284C889C00A23E24 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7ECBE6E7284C894900A23E24 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		7E6352ED284C82930022ACE4 /* SimpleLocalized */ = {
 			isa = PBXGroup;
 			children = (
+				7ECBE6E4284C892100A23E24 /* Extensions */,
 				7E6352EE284C82930022ACE4 /* AppDelegate.swift */,
 				7E6352F0284C82930022ACE4 /* SceneDelegate.swift */,
 				7E6352F2284C82930022ACE4 /* ViewController.swift */,
@@ -138,6 +141,14 @@
 				7ECBE6E1284C878500A23E24 /* Localizable.strings */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		7ECBE6E4284C892100A23E24 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7ECBE6E7284C894900A23E24 /* String.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +286,7 @@
 			files = (
 				7E6352F3284C82930022ACE4 /* ViewController.swift in Sources */,
 				7E6352EF284C82930022ACE4 /* AppDelegate.swift in Sources */,
+				7ECBE6E8284C894900A23E24 /* String.swift in Sources */,
 				7E6352F1284C82930022ACE4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
