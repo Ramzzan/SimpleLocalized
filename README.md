@@ -1,0 +1,2 @@
+# SimpleLocalized
+Simple Localized App
